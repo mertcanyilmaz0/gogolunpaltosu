@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --main-color: #1E201E;
+    --background-color: #1E201E;
+    --text-color: #ECDFCC;
+    --white-color: #fff;
+    --black-color: #000;
+    --side-color: #ddd;
+}
+
+/* Html Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 0.8rem;
+    height: auto;
+    background-color: var(--text-color);
+}
+
+html::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 3rem;
+    background-color: var(--black-color);
+}
+
+body {
+    background-color: var(--white-color);
+    overflow: hidden;
+}
+
+a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+section {
+    padding: 3.5rem 7%;
+}
+
+/* Html End */
+
+/* Header Start */
+.header-big-container {
+    width: 100vw;
+    background-color: var(--background-color);
+    display: flex;
+    position: static;
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+
+.header-big-container .header-logo-container a img {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-big-container .header-navbar-container .header-navbar-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.header-big-container .header-navbar-container .header-navbar-list .header-navbar-list-eleman{
+    margin: 4rem 2rem 4rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: none;
+}
+.header-big-container .header-buttons i{
+    color: var(--white-color);
+    margin-top: 4rem;
+    font-size: 1.6rem;
+}
+/* Header End */
